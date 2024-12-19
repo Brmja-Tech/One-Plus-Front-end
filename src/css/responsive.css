@@ -1,0 +1,351 @@
+/* XXL */
+@media(min-width: 1440px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  /* Styling footer section on medium screens */
+  footer {
+    .footer-container {
+      flex-direction: row !important;
+
+      .right {
+        flex-direction: row !important;
+        text-align: start !important;
+      }
+    }
+  }
+}
+
+/* XL */
+@media(min-width: 1280px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  /* Styling footer section on medium screens */
+  footer {
+    .footer-container {
+      flex-direction: row !important;
+
+      .right {
+        flex-direction: row !important;
+        text-align: start !important;
+      }
+    }
+  }
+}
+
+/* LG */
+@media(min-width: 992px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 110px !important;
+    height: 110px !important;
+  }
+
+  /* Styling footer section on medium screens */
+  footer {
+    .footer-container {
+      flex-direction: row !important;
+
+      .right {
+        flex-direction: row !important;
+        text-align: start !important;
+      }
+    }
+  }
+}
+
+/* MD */
+@media(min-width: 768px) {
+  :root {
+    --link-size: 20px !important;
+    --section-title-size: 32px !important;
+  }
+
+  /* styling header on meduim screens */
+  header {
+    nav {
+      .logo {
+        width: 60px !important;
+        height: 60px !important;
+      }
+
+      .nav-links {
+        column-gap: 25px !important;
+      }
+
+      .nav-icons {
+        font-size: 35px !important;
+      }
+    }
+  }
+
+  /* customizing carousel on meduim screens */
+  .carousel {
+    position: relative !important;
+
+    .carousel-item {
+      .content {
+        padding-inline: 20px !important;
+
+        .text {
+          text-align: center !important;
+          position: relative !important;
+          z-index: 2 !important;
+
+          :nth-child(2) {
+            font-size: 32px !important;
+          }
+
+          :last-child {
+            font-size: 18px !important;
+          }
+
+          button {
+            width: 200px !important;
+          }
+        }
+
+        .img-shapes {
+          img {
+            width: 180px !important;
+          }
+
+        }
+      }
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 50px !important;
+      height: 50px !important;
+
+      > span {
+        font-size: 24px !important;
+      }
+    }
+
+    .carousel-control-next {
+      right: -25px !important;
+    }
+
+    .carousel-control-prev {
+      left: -25px !important;
+    }
+
+  }
+
+  /* Styling Departments section on meduim screens*/
+  .departments {
+    column-gap: 20px !important;
+    row-gap: 40px !important;
+
+    .department {
+      width: 140px !important;
+
+      a {
+        .department-img {
+          width: 140px !important;
+          height: 140px !important;
+
+          img {
+            width: 90px !important;
+          }
+
+        }
+      }
+
+    }
+  }
+
+  /* Styling footer section on medium screens */
+  footer {
+    padding: 30px 20px 40px 20px !important;
+    margin-top: 100px !important;
+
+    .footer-container {
+      flex-direction: column;
+      row-gap: 40px !important;
+
+      .right {
+        flex-direction: column;
+        width: 100% !important;
+        text-align: center;
+        padding-left: 0 !important;
+
+        .logo-img {
+          width: 100px !important;
+          height: 100px !important;
+        }
+
+        .info {
+          line-height: 30px !important;
+        }
+      }
+
+      .left {
+        width: 100% !important;
+
+        :first-child {
+          text-align: center !important;
+        }
+      }
+    }
+  }
+}
+
+/* mobile */
+@media(max-width: 767px) {
+  :root {
+    --link-size: 16px !important;
+    --section-title-size: 26px !important;
+  }
+
+  /* styling header on mobile screens */
+  header {
+    nav {
+      .logo {
+        width: 50px !important;
+        height: 50px !important;
+      }
+
+      .nav-links {
+        column-gap: 20px !important;
+      }
+
+      .nav-icons {
+        font-size: 30px !important;
+
+        .whatsapp {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  /* customizing carousel on mobile screens */
+  .carousel {
+    position: relative !important;
+
+    .carousel-item {
+      height: 400px !important;
+
+      .content {
+        flex-direction: column-reverse !important;
+        padding-inline: 20px !important;
+
+        .text {
+          text-align: center !important;
+          position: relative !important;
+          z-index: 2 !important;
+
+          :nth-child(2) {
+            font-size: 24px !important;
+          }
+
+          :last-child {
+            font-size: 16px !important;
+          }
+
+          button {
+            width: 150px !important;
+          }
+        }
+
+        .img-shapes {
+          img {
+            width: 150px !important;
+          }
+
+        }
+      }
+
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      width: 40px !important;
+      height: 40px !important;
+
+      > span {
+        font-size: 20px !important;
+      }
+    }
+
+    .carousel-control-next {
+      right: -10px !important;
+    }
+
+    .carousel-control-prev {
+      left: -10px !important;
+    }
+
+  }
+
+  /* Styling Departments section on mobile screens*/
+  .departments {
+    column-gap: 20px !important;
+    row-gap: 35px !important;
+
+    .department {
+      width: 130px !important;
+
+      a {
+        .department-img {
+          width: 130px !important;
+          height: 130px !important;
+
+          img {
+            width: 80px !important;
+          }
+
+        }
+      }
+
+    }
+  }
+
+  /* Styling footer section on mobile screens */
+  footer {
+    padding: 20px 20px 40px 20px !important;
+    margin-top: 80px !important;
+
+    .footer-container {
+      flex-direction: column !important;
+      row-gap: 30px !important;
+
+      .right {
+        flex-direction: column !important;
+        width: 100% !important;
+        text-align: center !important;
+        padding-left: 0 !important;
+
+        .logo-img {
+          width: 80px !important;
+          height: 80px !important;
+        }
+
+        .info {
+          line-height: 25px !important;
+        }
+      }
+
+      .left {
+        width: 100% !important;
+
+        :first-child {
+          text-align: center !important;
+        }
+      }
+    }
+  }
+}
